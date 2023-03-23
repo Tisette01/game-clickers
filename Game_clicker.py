@@ -89,7 +89,7 @@ options = ttk.Frame(tab_control)
 
 # Основное окно
 root.title('Игра"Кликер"')
-root.iconbitmap(default='logo.ico')
+# root.iconbitmap(default='logo.ico') Отключена до консультации с кодером
 root.resizable(False,False)
 root.protocol('WM_DELETE_WINDOW', finish)
 
